@@ -1,1 +1,21 @@
 //Layout
+
+.header {
+  position: relative;
+  width: 930px;
+  margin: 0 auto;
+  padding: 100px 0;
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    a {
+      display: block;
+      width: 60px;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
