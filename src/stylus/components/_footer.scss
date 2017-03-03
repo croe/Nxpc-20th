@@ -1,1 +1,26 @@
 //Layout
+
+.footer {
+  padding: 0 0 50px;
+  ul {
+    width: 930px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style-type: none;
+    li {
+      height: 73px;
+      a {
+        display: block;
+        height: 100%;
+        img {
+          display: block;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
