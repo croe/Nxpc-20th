@@ -5,12 +5,10 @@
 // Styleguide base
 
 //Base
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-@import url(https://fonts.googleapis.com/css?family=Roboto\+Slab:400,100,300,700);
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
 body {
-  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 'Fjalla One', "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 html {
@@ -22,8 +20,12 @@ body {
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $color-base-gold;
+  background: $color-base-gray;
+  color: $color-base-red;
   font-size: 14px;
   line-height: 1em;
-  overflow-x: hidden;
+}
+
+p {
+  color: $color-text-gray;
 }
