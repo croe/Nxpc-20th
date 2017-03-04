@@ -45,7 +45,7 @@
     "load-svg": "^1.0.0",
     "normalize.css": "^5.0.0",
     "svg-mesh-3d": "^1.1.0",
-    "three": "^0.79.0"
+    "tween.js": "^16.6.0"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
