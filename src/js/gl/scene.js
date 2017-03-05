@@ -52,7 +52,7 @@ export default class GLScene {
             }
 
             let m = new THREE.MeshBasicMaterial({
-                color: 0xbf4c36, opacity: 1.0, wireframe: false,
+                color: 0xcb6f5e, opacity: 1.0, wireframe: false,
                 side: THREE.DoubleSide, transparent: true
             });
 
@@ -60,7 +60,7 @@ export default class GLScene {
             this.scene.add(this.obj);
 
             this.wire = new THREE.Mesh(g, new THREE.MeshBasicMaterial({
-                color: 0xbf4c36, opacity: 1.0, wireframe: true,
+                color: 0xcb6f5e, opacity: 1.0, wireframe: true,
                 side: THREE.DoubleSide
             }));
 

@@ -31,30 +31,42 @@
 <body>
 <header class="header">
   <div class="logo"><a href="http://nxpclab.info/" target="_blank"><img src="./images/logo.png" alt="NxPC.Lab"></a></div>
-  <div class="logo_20th"><img src="./images/logo_iamas20.png" alt="iamas 20th"></div>
+  <div class="logo_20th">
+    <a href="http://www.iamas.ac.jp/20th/" target="_blank">
+      <img src="./images/logo_iamas20.png" alt="iamas 20th">
+    </a>
+  </div>
+  <nav class="navi">
+    <ul class="horlist">
+      <li class="horlist__item"><a href="#1">Info</a></li>
+      <li class="horlist__item"><a href="#2">Timetable</a></li>
+      <li class="horlist__item"><a href="#3">Artists</a></li>
+      <li class="horlist__item"><a href="#4">Access</a></li>
+    </ul>
+  </nav>
 </header><!-- /header -->
-<main class="main">
+<main id="0" class="main">
   <div id="gl-scene"></div>
   <section class="container box-toparea" id="toparea">
     <div class="titleimg">
       <img src="./images/title.svg">
     </div>
   </section>
-  <section class="container box-info">
+  <section id="1" class="container box-info">
     <div class="inner">
       <h2>Info</h2>
       <div class="content">
         <h3>Ticket</h3>
-        <p><strong>ADV</strong>: &yen; 2,000 [ <a href="http://peatix.com/event/240752" target="_blank">BUY</a> ]</p>
-        <p><strong>DOOR</strong>: &yen; 2,500</p>
+        <p><strong>ADV</strong>:&nbsp;&nbsp;&yen; 2,000 [ <a href="http://peatix.com/event/240752" target="_blank">BUY</a> ]</p>
+        <p><strong>DOOR</strong>:&nbsp;&yen; 2,500</p>
         <h3>Date</h3>
-        <p><strong>OPEN</strong>: 21:30</p>
-        <p><strong>START</strong>: 22:00</p>
-        <p><strong>CLOSE</strong>: 29:00</p>
+        <p><strong>OPEN</strong>:&nbsp;&nbsp;21:30</p>
+        <p><strong>START</strong>:&nbsp;22:00</p>
+        <p><strong>CLOSE</strong>:&nbsp;29:00</p>
       </div>
     </div>
   </section>
-  <section class="container box-timetable">
+  <section id="2" class="container box-timetable">
     <div class="inner">
       <h2>Timetable</h2>
       <div class="timetable">
@@ -62,7 +74,7 @@
       </div>
     </div>
   </section>
-  <section class="container box-artists">
+  <section id="3" class="container box-artists">
     <div class="inner">
       <div class="list">
         <h2>Sound</h2>
@@ -142,7 +154,7 @@
             <div class="thumb"><img src="./images/thumb_quintet.png" alt="dropcontrol/QUINTET"></div>
             <div class="profile">
               <h3>dropcontrol/QUINTET</h3>
-              <p>大和比呂志(ギタリスト、テナーサックス奏者、音楽家。現在IAMASに在学し三輪眞弘に師事しポリ/クロスリズムに着目した研究を進めている)主催のex-Jazzバンド。今回はfeat. ベース永松歩、ドラムよしじまともひと、テナーサックス塙健介、アルトサックス津上研太を迎えてクインテットで編成。<br>
+              <p>大和比呂志(ギタリスト、テナーサックス奏者、音楽家。現在IAMASに在学。三輪眞弘に師事しポリ/クロスリズムに着目した研究を進めている)主催のex-Jazzバンド。今回はfeat. ベース永松歩、ドラムよしじまともひと、テナーサックス塙健介、アルトサックス津上研太を迎えてクインテットで編成。<br>
                 <a href="http://www.dropcontrol.com/" target="_blank">http://www.dropcontrol.com/</a></p>
             </div>
           </li>
@@ -280,7 +292,7 @@
       </div>
     </div>
   </section>
-  <section class="container">
+  <section id="4" class="container">
     <div id="map"></div>
   </section>
 </main>
