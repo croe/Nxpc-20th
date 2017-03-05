@@ -17,13 +17,11 @@ export default class GLScene {
         this.camera.position.set(0, 0, 20);
         this.camera.lookAt(new THREE.Vector3(0,0,0));
 
-        this.renderer = new THREE.WebGLRenderer({antialias: false});
+        this.renderer = new THREE.WebGLRenderer({antialias: true});
         this.renderer.setSize(window.innerWidth, window.innerHeight);
         this.renderer.setPixelRatio(window.devicePixelRatio);
         this.renderer.setClearColor(0xe9eae9);
         document.getElementById('gl-scene').appendChild(this.renderer.domElement);
-
-        window.addEventListener('resize', this.resize.bind(this), false);
 
         loadSvg('./images/congrats.svg', (err, svg)=>{
             if (err) throw err;
@@ -70,6 +68,11 @@ export default class GLScene {
 
 
         });
+
+        window.addEventListener('resize', this.resize.bind(this), false);
+        this.area = document.getElementById("toparea");
+        this.area.style.height = window.innerHeight + "px";
+
         this.trigger();
         setInterval(this.trigger.bind(this), 10000);
 
@@ -81,6 +84,8 @@ export default class GLScene {
         this.camera.updateProjectionMatrix();
 
         this.renderer.setSize(window.innerWidth, window.innerHeight);
+
+        this.area.style.height = window.innerHeight + "px";
     }
 
     animate() {

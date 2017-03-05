@@ -1,11 +1,8 @@
 //Layout
 
 .header {
-  position: relative;
+  position: fixed;
   width: 100%;
-  margin: 0 auto;
-  padding: 50px 0;
-  // position: fixed;
   .logo {
     position: absolute;
     top: 10px;
@@ -33,9 +30,6 @@
 
 @include min-screen($breakpoint-sm) {
   .header {
-    width: 930px;
-    margin: 0 auto;
-    padding: 100px 0;
     .logo {
       top: 20px;
       left: 20px;

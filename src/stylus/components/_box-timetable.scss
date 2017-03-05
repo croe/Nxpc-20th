@@ -1,14 +1,5 @@
 .box-timetable {
   .inner {
-    width: 100%;
-    margin: 0 auto;
-    h2 {
-      font-size: 50px;
-      line-height: 1em;
-      font-weight: bold;
-      margin: 30px 0 15px;
-      padding: 0 10px;
-    }
     .timetable {
       width: 100%;
       img {
@@ -22,13 +13,6 @@
 @include min-screen($breakpoint-sm) {
   .box-timetable {
     .inner {
-      width: 930px;
-      margin: 0 auto;
-      h2 {
-        font-size: 100px;
-        margin: 60px 0 30px;
-        padding: 0 20px;
-      }
       .timetable {
         width: 100%;
       }
